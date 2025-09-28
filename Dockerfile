@@ -2,7 +2,7 @@
 FROM node:20-alpine
 
 # Install required dependencies for mediasoup
-RUN apk add --no-cache python3 make g++ linux-headers
+RUN apk add --no-cache python3 py3-pip make g++ linux-headers
 
 # Create app directory
 WORKDIR /app
