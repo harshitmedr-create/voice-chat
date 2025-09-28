@@ -1,0 +1,24 @@
+{
+  "name": "voice-chat",
+  "version": "1.0.0",
+  "description": "Voice chat application using mediasoup and Socket.IO",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "voice-chat",
+    "mediasoup",
+    "webrtc",
+    "socket.io"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "express": "^4.18.2",
+    "mediasoup": "^3.12.8",
+    "socket.io": "^4.7.2"
+  }
+}
