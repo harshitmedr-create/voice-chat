@@ -1,5 +1,5 @@
-# Use Node.js v16 as base image
-FROM node:16-alpine
+# Use Node.js v20 as base image
+FROM node:20-alpine
 
 # Install required dependencies for mediasoup
 RUN apk add --no-cache python3 make g++ linux-headers
